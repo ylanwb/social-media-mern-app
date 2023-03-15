@@ -1,0 +1,50 @@
+.homePageContainer {
+  width: 92vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 8vw;
+  margin-top: 10vh;
+  overflow: hidden;
+}
+.projectGroup {
+  width: max-content;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  font-family: "Inter", sans-serif;
+}
+.projectGroup h1 {
+  font-weight: 100;
+}
+.projectBoxContainer {
+  width: max-content;
+  height: max-content;
+  display: flex;
+}
+.projectBox {
+  width: 20vw;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+
+#scroller {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  white-space: nowrap;
+  background-color: #f6f7fa;
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+  margin-left: 2vw;
+}
+#scroller .projectBox {
+  display: inline-block;
+  margin-right: 50px;
+}

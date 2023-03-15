@@ -1,0 +1,10 @@
+.NavBarContainer {
+    height: 10vh;
+    width: 100vw;
+    background-color: #75AEC7;
+}
+.sideNavBarContainer {
+    height: 90vh;
+    width: 8vw;
+    background-color: #75AEC7;
+}
